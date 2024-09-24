@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-ews-bucket1-am"
+    bucket         = "terraform-bucket-am"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     #dynamodb_table = "Lock-Files"
